@@ -83,17 +83,17 @@ p:first-of-type {
 }
 
 p:last-of-type {
-  font-style: italic;
   color: #20A1D4;
+  font-style: italic;
   padding-bottom: 30px;
   margin-top: 0;
 }
 
 p {
   color: #777;
-  text-align: left;
   padding: 0px 45px;
   margin-top: 30px;
+  text-align: left;
 }
 
 span {
@@ -113,12 +113,12 @@ strong {
 
 .dollar {
   color: #777;
-  font-weight: bold;
   font-size: 1.2em;
+  font-weight: bold;
+  padding: 25px 10px 25px 15px;
   border: 2px solid #EAEAEA;
   border-right: none;
   border-radius: 6px 0 0 6px;
-  padding: 25px 10px 25px 15px;
 }
 
 form {
@@ -142,8 +142,8 @@ input::placeholder {
 button {
   color: #FFF;
   background-color: #1CBC2C;
-  font-weight: bold;
   font-size: 1.2em;
+  font-weight: bold;
   width: 52%;
   border-radius: 6px;
 }
@@ -158,8 +158,8 @@ footer {
   color: #777;
   font-weight: bold;
   background-color: #F5F5F5;
-  width: 285px;
   padding: 20px;
+  width: 285px;
   border: 1px solid #D3D3D3;
   border-bottom-width: 2px;
   border-radius: 6px;
