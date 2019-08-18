@@ -13,10 +13,6 @@ body {
 
 /* Above code copied from original stylesheet.css */
 
-img {
-  display: block;
-  margin: auto;
-}
 
 .page {
   display: flex;
