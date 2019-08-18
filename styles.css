@@ -1,0 +1,164 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  font-size: 28px;
+  color: #424242;
+	line-height: 1.4;
+}
+
+/* Above code copied from original stylesheet.css */
+
+.page {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 700px;
+  padding: 40px 45px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.top {
+  display: flex;
+  flex-flow: column;
+}
+
+.title {
+  color: #FFF;
+  background-color: #424242;
+  padding: 30px 10px;
+  border-radius: 6px;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+h1 em {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.arrow {
+  font-size: .5em;
+  margin: -4px 0 5px 450px;
+}
+
+.progress {
+  display: flex;
+}
+
+.bar {
+  height: 25px;
+  border: 1px solid #D3D3D3;
+  border-bottom: none;
+}
+
+.left {
+  width: 75%;
+  background-color: #EF5F3C;
+}
+
+.right {
+  width: 25%;
+  background-color: #F5F5F5;
+}
+
+.content {
+  border: 1px solid #D3D3D3;
+  border-bottom-width: 2px;
+}
+
+p:first-of-type {
+  padding-top: 30px;
+  margin-top: 0px;
+}
+
+p:last-of-type {
+  font-style: italic;
+  color: #20A1D4;
+  padding-bottom: 30px;
+  margin-top: 0;
+}
+
+p {
+  text-align: left;
+  padding: 0px 45px;
+  margin-top: 30px;
+}
+
+span {
+  color: #EF5F3C;
+  font-weight: bold;
+}
+
+strong {
+  font-size: .8em;
+}
+
+.money {
+  display: flex;
+  padding: 0 45px;
+  margin: 30px auto 15px auto;
+  }
+
+.dollar {
+  color: #777;
+  font-weight: bold;
+  font-size: 1.2em;
+  border: 2px solid #EAEAEA;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+  padding: 25px 10px 25px 15px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 40%;
+  border: 2px solid #EAEAEA;
+  border-left: none;
+  border-radius: 0 6px 6px 0;
+}
+
+input::placeholder {
+  color: #000;
+}
+
+button {
+  color: #FFF;
+  background-color: #1CBC2C;
+  font-weight: bold;
+  font-size: 1.2em;
+  width: 52%;
+  border-radius: 6px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.social {
+  color: #777;
+  font-weight: bold;
+  background-color: #F5F5F5;
+  width: 285px;
+  padding: 20px;
+  border: 1px solid #D3D3D3;
+  border-bottom-width: 2px;
+  border-radius: 6px;
+}
