@@ -13,6 +13,11 @@ body {
 
 /* Above code copied from original stylesheet.css */
 
+img {
+  display: block;
+  margin: auto;
+}
+
 .page {
   display: flex;
   flex-flow: column;
@@ -89,6 +94,7 @@ p:last-of-type {
 }
 
 p {
+  color: #777;
   text-align: left;
   padding: 0px 45px;
   margin-top: 30px;
